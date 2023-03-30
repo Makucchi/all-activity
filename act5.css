@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(241, 244, 255);
+}
+#head {
+  background-color: rgb(1, 81, 134);
+
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#logo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+#head li {
+  list-style-type: none;
+  float: left;
+  margin-right: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+#head form a {
+  text-decoration: none;
+  color: rgb(216, 237, 255);
+}
+#head form li input[type="submit"] {
+  background-color: rgb(2, 112, 155);
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 22, 146);
+  padding: 2px 5px 2px 5px;
+}
+#head form li input[type="password"] {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#head form li input[type="text"] {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#head form li input[type="submit"] {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#forms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 100vh;
+  padding: 0 20px 0 20px;
+}
+#left {
+  padding-top: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#textleft {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(26, 26, 26);
+}
+
+#inf {
+  margin-top: 60px;
+
+  font-size: 18px;
+}
+#inf b {
+  color: black;
+}
+#inf span {
+  color: rgb(124, 124, 124);
+}
+#right {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+#signup b {
+  font-size: 30px;
+}
+#infos {
+  margin-top: 30px;
+}
+#infos li {
+  list-style: none;
+  padding-bottom: 15px;
+}
+#infos input {
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border-color: rgb(146, 146, 146);
+  border-style: solid;
+  font-size: 15px;
+}
+#infos input[type="text"] {
+  width: 25%;
+}
+#infos input[id="emai"] {
+  width: 52.5%;
+}
+#infos input[id="pass"] {
+  width: 52.5%;
+}
+#birth li {
+  list-style: none;
+  margin-top: 5px;
+}
+#genders {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+}
+#genders span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#terms {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+  margin-top: 5px;
+}
+#create {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  list-style: none;
+}
+#sign:hover {
+  cursor: grab;
+}
+#sign {
+  margin-top: 30px;
+  list-style: none;
+}
+#sign input[id="sub"] {
+  width: 230px;
+  height: 50px;
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: rgb(114, 114, 114);
+  background-color: rgb(36, 143, 3);
+  color: white;
+}
+#birth input[type="date"] {
+  height: 25px;
+}
+#birth a {
+  text-decoration: none;
+  color: rgb(18, 95, 197);
+  font-size: 12px;
+}
+#terms a {
+  text-decoration: none;
+  color: rgb(18, 95, 197);
+}
+#terms {
+  font-size: 12px;
+}
+#create a {
+  text-decoration: none;
+  color: rgb(18, 95, 197);
+}
